@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Gilda Display';
+    src: url("../fonts/GildaDisplay-Regular.ttf");
+}
+
+@font-face {
+    font-family: 'Maven Pro';
+    src: url("../fonts/MavenPro-Regular.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Maven Pro';
+}
+
+/* =========================
+    HEADER STYLES
+===========================*/
+
+header {
+    color: #fff;
+    background-color: #333;
+    padding: 1rem;
+}
+
+header h1 {
+    width: 80px;
+    font-size: 1em;
+    letter-spacing: 0.5rem;
+}
+
+header article h2 {
+    font-family: 'Gilda Display';
+    font-size: 4em;
+    margin-bottom: 5px;
+}
+
+header article p {
+    font-size: 1em;
+}
+
+header article {
+    width: 260px;
+    padding: 0.4rem;
+    margin: 8rem auto;
+    text-align: center;
+    background-image: linear-gradient(to right top, #8507e1 10%, #194894, #3dc8d5);
+}
+
+header article:hover {
+    background-image: linear-gradient(to left bottom, #8507e1 10%, #194894, #3dc8d5);
+}
+
+
+header nav ul {
+    list-style-type: none;
+    text-align: right;
+}
+
+header nav ul li {
+    margin: 0.5em;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #cccccc;
+}
+
+header nav ul li a:hover {
+    color: white;
+}
+
+/* =========================
+    MAIN STYLES
+===========================*/
+main section {
+    background-image: url("https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg");
+    background-repeat: no-repeat;
+    margin: 8rem 5rem;
+}
+
+main section article {
+    margin: 10rem 0;
+    padding-top: 6rem;
+    width: 60%;
+}
+
+main section article h3 {
+    font-family: 'Gilda Display';
+    font-weight: bolder;
+    font-size: 4em;
+    margin-bottom: 4rem;
+}
+
+main section article p {
+    padding-bottom: 2rem;
+}
+
+main section div img {
+    width: 100%;
+    margin: 2rem auto;
+    border-radius: 1em;
+}
+
+main section div h4 {
+font-family: 'Gilda Display';
+font-weight: bolder;
+font-size: 3em;
+margin: 0.5rem auto;
+}
+main section div p {
+    text-transform: uppercase;
+    margin-bottom: 12rem;
+}
